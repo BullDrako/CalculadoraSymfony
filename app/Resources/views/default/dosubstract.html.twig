@@ -1,0 +1,10 @@
+{%  extends '::base.html.twig' %}
+
+
+{% block body %}
+    <form method="post" action="{{ path('app_default_dosubstract') }}" >
+        <input type="number" name="op1"/>
+        <input type="number" name="op2"/>
+        <input type="submit" value="restar"/>
+    </form>
+{% endblock %}

@@ -1,0 +1,10 @@
+{%  extends '::base.html.twig' %}
+
+
+{% block body %}
+    <form method="post" action="{{ path('app_default_dodivide') }}" >
+        <input type="number" name="op1"/>
+        <input type="number" name="op2"/>
+        <input type="submit" value="dividir"/>
+    </form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Calculadora symfony</h1>
+    </br>
+    <p><a href="{{ path('app_default_sum') }}">Sumar</a></p>
+    <p><a href="{{ path('app_default_substract') }}">Restar</a></p>
+    <p><a href="{{ path('app_default_multiply') }}">Multiplicar</a></p>
+    <p><a href="{{ path('app_default_divide') }}">Dividir</a></p>
+
+{% endblock %}
